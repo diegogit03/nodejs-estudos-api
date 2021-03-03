@@ -23,5 +23,8 @@ process.on('exit', () => {
 /**
  * More about:
  *
- * https://nodejs.org/dist/latest-v14.x/docs/api/assert.html#assert_new_assert_calltracker
+ * assert.CallTracker(): https://nodejs.org/dist/latest-v14.x/docs/api/assert.html#assert_new_assert_calltracker
+ * tracker.calls([fn][, exact]): https://nodejs.org/dist/latest-v14.x/docs/api/assert.html#assert_tracker_calls_fn_exact
+ * tracker.report(): https://nodejs.org/dist/latest-v14.x/docs/api/assert.html#assert_tracker_report
+ * tracker.verify(): https://nodejs.org/dist/latest-v14.x/docs/api/assert.html#assert_tracker_verify
  */
