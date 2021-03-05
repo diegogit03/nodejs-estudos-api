@@ -7,7 +7,7 @@
 const assert = require('assert');
 
 assert(true, 'Asserting True');
-assert.ok(true, 'Asserting False');
+assert.ok(false, 'Asserting False');
 
 /**
  * More about
